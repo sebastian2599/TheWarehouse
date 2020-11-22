@@ -12,7 +12,7 @@ namespace TheWarehouse.DataAccess.InMemory
     {
         ObjectCache cache = MemoryCache.Default;
         List<Product> products = new List<Product>();
-        private Product product;
+        
 
         public ProductRepository()
         {
